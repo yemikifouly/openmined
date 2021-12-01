@@ -178,7 +178,7 @@ const contentTitles = {
 const contentTypes = {
   createAccount: () => ({
     subject: contentTitles.createAccount,
-    text: `We are thrilled to welcome you to OpenMined Courses - the educational platform for the OpenMined community. We suggest that you get started by checking out what courses we currently offer: https://courses.openmined.org/courses. As always, if you run into any issues you can contact us on Slack (${slackLink}), pick up the conversation on our Discussion Board (${discussionLink}), or file a bug report (${issuesLink}).`,
+    text: `We are thrilled to welcome you to OpenMined Courses - the educational platform for the OpenMined community. We suggest that you get started by checking out what courses we currently offer: https://courses.openmined.org/courses. As always, if you run into any issues you can contact us in the #support channel of our Slack Workspace (${slackLink}).`,
     html: template(contentTitles.createAccount, [
       {
         type: 'image',
@@ -201,7 +201,7 @@ const contentTypes = {
       },
       {
         type: 'paragraph',
-        text: `We are thrilled to welcome you to OpenMined Courses - the educational platform for the OpenMined community. We suggest that you get started by checking out <a href="https://courses.openmined.org/courses" target="_blank">what courses we currently offer</a>. As always, if you run into any issues you can contact us on <a href="${slackLink}" target="_blank">Slack</a>, pick up the conversation on our <a href="${discussionLink}" target="_blank">Discussion Board</a>, or file a <a href="${issuesLink}" target="_blank">bug report</a>.`,
+        text: `We are thrilled to welcome you to OpenMined Courses - the educational platform for the OpenMined community. We suggest that you get started by checking out <a href="https://courses.openmined.org/courses" target="_blank">what courses we currently offer</a>. As always, if you run into any issues you can contact us in the #support channel of our Slack Workspace <a href="${slackLink}" target="_blank">Slack</a>.`,
       },
       {
         type: 'button',
@@ -235,13 +235,13 @@ const contentTypes = {
       },
       {
         type: 'paragraph',
-        text: `You have requested that your OpenMined Courses account be deleted and the process is currently underway. If you have a moment, we would love to hear your feedback about why you decided to delete your account - please post something on our <a href="${discussionLink}" target="_blank">Discussion Board</a>.`,
+        text: `You have requested that your OpenMined Courses account be deleted and the process is currently underway. If you have a moment, we would love to hear your feedback about why you decided to delete your account - please post something in our Slack workspace.`,
       },
     ]),
   }),
   startCourse: () => ({
     subject: contentTitles.startCourse,
-    text: `Congratulations on starting a new course with OpenMined Courses - we wish you the best of luck! If at any point you need help, pick up the conversation on our Discussion Board (${discussionLink}). And as always, if you run into any issues you can contact us on Slack (${slackLink}) or file a bug report (${issuesLink}).`,
+    text: `Congratulations on starting a new course with OpenMined Courses - we wish you the best of luck! If at any point you need help you can post in the #support channel of our Slack (${slackLink}) workspace.`,
     html: template(contentTitles.startCourse, [
       {
         type: 'image',
